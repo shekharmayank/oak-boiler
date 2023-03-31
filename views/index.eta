@@ -1,5 +1,5 @@
 <% layout('partials/layout') %>
 
 <div>
-Welcome to Oak Boiler!
-<div>
+  Welcome to Oak Boiler!
+</div>

@@ -1,5 +1,6 @@
 import { Router } from "https://deno.land/x/oak@v12.1.0/mod.ts";
 import { renderFile } from "https://deno.land/x/eta@v1.11.0/mod.ts"
+import { api } from "../api/index.ts";
 
 export const mainRouter = new Router();
 
@@ -14,3 +15,5 @@ mainRouter.get("/pricing", async (ctx) => {
     title: 'Pricing'
   });
 })
+
+mainRouter.use('/api', api.routes());
