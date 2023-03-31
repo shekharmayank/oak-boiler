@@ -1,0 +1,5 @@
+<footer>
+  <small>&copy; <%= new Date().getFullYear() %> Oak Boiler</small>
+</footer>
+</body>
+</html>

@@ -1,5 +1,5 @@
 <% layout('partials/layout') %>
 
 <div>
-<%=it.status%> - <%=it.msg%>
+Yup, it's free!
 </div>

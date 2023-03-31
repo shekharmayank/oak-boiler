@@ -1,0 +1,9 @@
+<%~ includeFile("partials/head", it) %>
+
+<%~ includeFile("partials/header", it) %>
+
+<hr />
+
+<%~ it.body %>
+
+<%~ includeFile("partials/footer", it) %>

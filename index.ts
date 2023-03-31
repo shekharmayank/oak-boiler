@@ -27,9 +27,9 @@ app.use(mainRouter.routes());
  * 404 page
  */
 app.use(async (ctx) => {
-  const templateResult = await renderFile("./error", { status: 404, msg: "Page not found" });
+  ctx.response.body = await renderFile("./error", { 
+    status: 404, msg: "Page not found", title: 404 });
   ctx.response.status = 404;
-  ctx.response.body = templateResult;
 });
 
 /**
