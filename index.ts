@@ -1,5 +1,5 @@
 import { Application } from "https://deno.land/x/oak@v12.1.0/mod.ts";
-import { mainRouter } from "./routes/index.ts";
+import { mainRouter } from "./main-router.ts";
 import { renderFile, configure } from "https://deno.land/x/eta@v1.11.0/mod.ts"
 import { errorHandler } from "./helpers/errorHandler.ts";
 

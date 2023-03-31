@@ -1,4 +1,4 @@
-<% layout('partials/layout') %>
+<% layout('layouts/main') %>
 
 <div>
   Welcome to Oak Boiler!

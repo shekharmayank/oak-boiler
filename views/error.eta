@@ -1,4 +1,4 @@
-<% layout('partials/layout') %>
+<% layout('layouts/main') %>
 
 <div>
 <%=it.status%> - <%=it.msg%>
