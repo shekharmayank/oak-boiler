@@ -24,6 +24,16 @@ configure({
 app.use(mainRouter.routes());
 
 /**
+ * Serving static files
+ */
+mainRouter.get('/static/:path+', async (ctx) => {
+  await ctx.send({
+    root: `${Deno.cwd()}/static`,
+    path: ctx.params["path"]
+  });
+});
+
+/**
  * 404 page
  */
 app.use(async (ctx) => {
