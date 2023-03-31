@@ -4,7 +4,7 @@
 
 /node_modules
 
-/static
+/static/styles/water.css
 
 .env
 *.orig
