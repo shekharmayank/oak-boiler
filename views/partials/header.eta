@@ -5,5 +5,5 @@
     <a href="/">Home</a>
     <a href="/pricing">Pricing</a>
     <a href="/api">API</a>
-  <nav>
+  </nav>
 </header>
