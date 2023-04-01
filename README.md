@@ -1,7 +1,7 @@
 # oak boiler
 
-* `eta` view engine
-* 404 page
-* Error handler
+Simple boiler project.
 
-WIP 🚧
+To enable intellisense for `eta` files, in vscode settings in `files.associations` add `*.eta`: `html`.
+
+To run in dev mode, `deno task dev`.
